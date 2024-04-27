@@ -35,6 +35,7 @@ if (cluster.isPrimary) {
   var tracedSchema = traceSchema({
     schema,
     adapter: new ProxyAdapter(),
+    shouldExportSchema: false,
   });
 
   var app = express();
