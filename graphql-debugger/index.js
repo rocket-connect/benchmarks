@@ -32,11 +32,9 @@ if (cluster.isPrimary) {
     }),
   });
 
-  var adapter = new ProxyAdapter();
-
   var tracedSchema = traceSchema({
     schema,
-    adapter,
+    adapter: new ProxyAdapter(),
   });
 
   var app = express();
