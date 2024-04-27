@@ -20,8 +20,8 @@ The API is served over HTTP using a common web server and load tested using [bom
 
 | Name                          | Language      | Server          | Latency avg      | Requests      |
 | ----------------------------  | ------------- | --------------- | ---------------- | ------------- |
-| [Mercurius](https://github.com/mercurius-js/mercurius) | Node.js | Fastify | 9.80ms | 20kps |
-| [graphql-yoga](https://github.com/dotansimha/graphql-yoga) | Node.js | http | 14.84ms | 14kps |
-| [apollo](https://github.com/apollographql/apollo-server) | Node.js | Express | 32.74ms | 6.1kps |
-| [graphql-js](https://github.com/graphql/graphql-js) | Node.js | http | 47.22ms | 4.2kps |
-| [graphql-debugger](https://github.com/rocket-connect/graphql-debugger) | Node.js | http | 110.57ms | 1.8kps |
+| [Mercurius](https://github.com/mercurius-js/mercurius) | Node.js | Fastify | 10.05ms | 20kps |
+| [graphql-yoga](https://github.com/dotansimha/graphql-yoga) | Node.js | http | 14.46ms | 14kps |
+| [apollo](https://github.com/apollographql/apollo-server) | Node.js | Express | 32.48ms | 6.1kps |
+| [graphql-js](https://github.com/graphql/graphql-js) | Node.js | http | 45.90ms | 4.3kps |
+| [graphql-debugger](https://github.com/rocket-connect/graphql-debugger) | Node.js | http | 101.75ms | 2.0kps |
