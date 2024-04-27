@@ -79,14 +79,6 @@
   run:
     cmd: node
     args: ["index.js"]
-- id: graphql-debugger
-  name: graphql-debugger
-  url: https://github.com/rocket-connect/graphql-debugger
-  lang: Node.js
-  server: http
-  run:
-    cmd: node
-    args: ["index.js"]
 - id: graphqld
   name: GraphqlD
   url: https://github.com/burner/graphqld
