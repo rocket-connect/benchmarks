@@ -1,8 +1,10 @@
 <!-- README.md is generated from README.ecr, do not edit -->
 
-# GraphQL server benchmarks
+# GraphQL Debugger Benchmarks
 
-Graphql server benchmarks in many languages. Pull requests welcome, please read [CONTRIBUTING.md](CONTRIBUTING.md)
+https://www.graphql-debugger.com
+
+Graphql server benchmarks in many frameworks.
 
 All servers implement a simple schema:
 
@@ -20,9 +22,9 @@ The API is served over HTTP using a common web server and load tested using [bom
 
 | Name                          | Language      | Server          | Latency avg      | Requests      |
 | ----------------------------  | ------------- | --------------- | ---------------- | ------------- |
-| [Mercurius](https://github.com/mercurius-js/mercurius) | Node.js | Fastify | 9.79ms | 20kps |
-| [graphql-yoga](https://github.com/dotansimha/graphql-yoga) | Node.js | http | 14.70ms | 14kps |
-| [apollo](https://github.com/apollographql/apollo-server) | Node.js | Express | 32.73ms | 6.1kps |
-| [graphql-js](https://github.com/graphql/graphql-js) | Node.js | http | 45.97ms | 4.3kps |
-| [apollo-graphql-debugger](https://graphql-debugger.com/docs/plugins/apollo) | Node.js | Express | 99.78ms | 2.0kps |
-| [graphql-debugger](https://github.com/rocket-connect/graphql-debugger) | Node.js | http | 100.77ms | 2.0kps |
+| [Mercurius](https://github.com/mercurius-js/mercurius) | Node.js | Fastify | 9.94ms | 20kps |
+| [graphql-yoga](https://github.com/dotansimha/graphql-yoga) | Node.js | http | 14.95ms | 13kps |
+| [apollo](https://github.com/apollographql/apollo-server) | Node.js | Express | 32.50ms | 6.1kps |
+| [helix](https://github.com/contra/graphql-helix) | Node.js | http | 45.53ms | 4.4kps |
+| [apollo-debugger](https://graphql-debugger.com/docs/plugins/apollo) | Node.js | Express | 98.32ms | 2.0kps |
+| [helix-debugger](https://github.com/rocket-connect/graphql-debugger) | Node.js | http | 102.98ms | 1.9kps |
