@@ -22,9 +22,9 @@ The API is served over HTTP using a common web server and load tested using [bom
 
 | Name                          | Language      | Server          | Latency avg      | Requests      |
 | ----------------------------  | ------------- | --------------- | ---------------- | ------------- |
-| [yoga](https://github.com/dotansimha/graphql-yoga) | Node.js | http | 14.92ms | 13kps |
-| [apollo](https://github.com/apollographql/apollo-server) | Node.js | Express | 32.43ms | 6.2kps |
-| [helix](https://github.com/contra/graphql-helix) | Node.js | http | 46.97ms | 4.2kps |
-| [yoga-debugger](https://graphql-debugger.com/docs/plugins/yoga) | Node.js | http | 78.01ms | 2.5kps |
-| [apollo-debugger](https://graphql-debugger.com/docs/plugins/apollo) | Node.js | Express | 99.89ms | 2.0kps |
-| [helix-debugger](https://github.com/rocket-connect/graphql-debugger) | Node.js | http | 101.73ms | 2.0kps |
+| [yoga](https://github.com/dotansimha/graphql-yoga) | Node.js | http | 14.56ms | 14kps |
+| [apollo](https://github.com/apollographql/apollo-server) | Node.js | Express | 32.39ms | 6.2kps |
+| [helix](https://github.com/contra/graphql-helix) | Node.js | http | 46.00ms | 4.3kps |
+| [yoga-debugger](https://graphql-debugger.com/docs/plugins/yoga) | Node.js | http | 78.52ms | 2.5kps |
+| [helix-debugger](https://github.com/rocket-connect/graphql-debugger) | Node.js | http | 100.61ms | 2.0kps |
+| [apollo-debugger](https://graphql-debugger.com/docs/plugins/apollo) | Node.js | Express | 100.86ms | 2.0kps |
