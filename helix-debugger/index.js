@@ -58,7 +58,9 @@ if (cluster.isPrimary) {
       request,
       schema: tracedSchema,
       contextFactory: () => ({
-        GraphQLDebuggerContext: new GraphQLDebuggerContext(),
+        GraphQLDebuggerContext: new GraphQLDebuggerContext({
+          schema,
+        }),
       }),
     });
 
