@@ -22,9 +22,17 @@
   run:
     cmd: node
     args: ["index.js"]
-- id: graphql-yoga
-  name: graphql-yoga
+- id: yoga
+  name: yoga
   url: https://github.com/dotansimha/graphql-yoga
+  lang: Node.js
+  server: http
+  run:
+    cmd: node
+    args: ["--no-warnings", "index.js"]
+- id: yoga-debugger
+  name: yoga
+  url: https://graphql-debugger.com/docs/plugins/yoga
   lang: Node.js
   server: http
   run:
