@@ -14,14 +14,6 @@
   run:
     cmd: node
     args: ["index.js"]
-- id: mercurius
-  name: Mercurius
-  url: https://github.com/mercurius-js/mercurius
-  lang: Node.js
-  server: Fastify
-  run:
-    cmd: node
-    args: ["index.js"]
 - id: yoga
   name: yoga
   url: https://github.com/dotansimha/graphql-yoga
@@ -31,7 +23,7 @@
     cmd: node
     args: ["--no-warnings", "index.js"]
 - id: yoga-debugger
-  name: yoga
+  name: yoga-debugger
   url: https://graphql-debugger.com/docs/plugins/yoga
   lang: Node.js
   server: http
