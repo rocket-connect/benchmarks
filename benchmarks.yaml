@@ -38,3 +38,11 @@
   run:
     cmd: node
     args: ["--no-warnings", "index.js"]
+- id: apollo-graphql-debugger
+  name: apollo-graphql-debugger
+  url: https://graphql-debugger.com/docs/plugins/apollo
+  lang: Node.js
+  server: Express
+  run:
+    cmd: node
+    args: ["--no-warnings", "index.js"]

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@graphql-debugger/apollo-server": "^0.0.0-alpha.104",
+    "apollo-server": "~3.13.0"
+  },
+  "type": "module"
+}
