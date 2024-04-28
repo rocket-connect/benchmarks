@@ -1,13 +1,13 @@
-- id: graphql-js
-  name: graphql-js
-  url: https://github.com/graphql/graphql-js
+- id: helix
+  name: helix
+  url: https://github.com/contra/graphql-helix
   lang: Node.js
   server: http
   run:
     cmd: node
     args: ["index.js"]
-- id: graphql-debugger
-  name: graphql-debugger
+- id: helix-debugger
+  name: helix-debugger
   url: https://github.com/rocket-connect/graphql-debugger
   lang: Node.js
   server: http
@@ -38,8 +38,8 @@
   run:
     cmd: node
     args: ["--no-warnings", "index.js"]
-- id: apollo-graphql-debugger
-  name: apollo-graphql-debugger
+- id: apollo-debugger
+  name: apollo-debugger
   url: https://graphql-debugger.com/docs/plugins/apollo
   lang: Node.js
   server: Express
