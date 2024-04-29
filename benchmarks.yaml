@@ -30,6 +30,14 @@
   run:
     cmd: node
     args: ["--no-warnings", "index.js"]
+- id: yoga-otel
+  name: yoga-otel
+  url: https://github.com/open-telemetry/opentelemetry-js/
+  lang: Node.js
+  server: http
+  run:
+    cmd: node
+    args: ["--no-warnings", "index.js"]
 - id: apollo
   name: apollo
   url: https://github.com/apollographql/apollo-server
