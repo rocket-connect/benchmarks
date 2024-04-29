@@ -7,7 +7,6 @@ import { Resource } from "@opentelemetry/resources";
 import { SemanticResourceAttributes } from "@opentelemetry/semantic-conventions";
 import {
   BasicTracerProvider,
-  ConsoleSpanExporter,
   SimpleSpanProcessor,
 } from "@opentelemetry/sdk-trace-base";
 import { OTLPTraceExporter } from "@opentelemetry/exporter-trace-otlp-http";
@@ -37,10 +36,11 @@ if (cluster.isPrimary) {
       `,
       resolvers: {
         Query: {
-          hello: () => {
+          hello: (root, args, context, info) => {
             const tracer = opentelemetry.trace.getTracer("example-tracer");
             const span = tracer.startSpan("say-hello");
             span.setAttribute("hello-to", "world");
+            span.setAttribute("query", JSON.stringify(info.operation));
             span.addEvent("invoking resolvers");
             span.end();
             return "world";
